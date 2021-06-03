@@ -36,6 +36,9 @@
                                 <state key="normal" title="Log In">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="O9g-2D-J45" kind="presentation" modalPresentationStyle="fullScreen" id="beT-S9-E00"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lOw-kE-2Po">
                                 <rect key="frame" x="133" y="720" width="148" height="30"/>
@@ -70,6 +73,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1042.0289855072465" y="83.705357142857139"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="9pn-q3-Thw">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="O9g-2D-J45" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YdH-f6-fsg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1680" y="100"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="9JX-Hf-jAm">
